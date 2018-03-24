@@ -22,7 +22,7 @@ export class ComponentC extends Component {
           title="Increment From C"
           style={{ padding: 5, margin: 5 }}
         />
-        <Text> {this.props.counter} </Text>
+        <Text style={{ fontSize: 40, textAlign: "center" }}> {this.props.counter} </Text>
       </View>
     )
   }

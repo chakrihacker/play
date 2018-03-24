@@ -32,6 +32,7 @@ export class ComponentB extends Component {
         <Button
           onPress={this.handleClick}
           title={`Component B is ${component.componentB ? 'Enabled' : 'disbaled'}`}
+          color={`${component.componentB ? 'green' : 'red'}`}
         />
         <ComponentC />
       </View>
